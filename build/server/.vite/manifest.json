@@ -1,0 +1,10 @@
+{
+  "virtual:remix/server-build": {
+    "file": "index.js",
+    "src": "virtual:remix/server-build",
+    "isEntry": true,
+    "css": [
+      "assets/server-build-NCEf_4qH.css"
+    ]
+  }
+}

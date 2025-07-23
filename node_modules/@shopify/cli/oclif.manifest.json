@@ -1,0 +1,470 @@
+{
+  "commands": {
+    "auth:logout": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Logs you out of the Shopify account or Partner account and store.",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hiddenAliases": [
+      ],
+      "id": "auth:logout",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "auth",
+        "logout.js"
+      ],
+      "strict": true
+    },
+    "debug:command-flags": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "View all the available command flags",
+      "flags": {
+        "csv": {
+          "allowNo": false,
+          "description": "Output as CSV",
+          "env": "SHOPIFY_FLAG_OUTPUT_CSV",
+          "name": "csv",
+          "type": "boolean"
+        }
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "debug:command-flags",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "debug",
+        "command-flags.js"
+      ],
+      "strict": true
+    },
+    "demo": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Demo a command design defined in a file",
+      "flags": {
+        "file": {
+          "default": ".",
+          "description": "The path to the design file.",
+          "env": "SHOPIFY_FLAG_PATH",
+          "hasDynamicHelp": false,
+          "hidden": false,
+          "multiple": false,
+          "name": "file",
+          "type": "option"
+        }
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "demo",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "demo",
+        "index.js"
+      ],
+      "strict": true
+    },
+    "demo:catalog": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Browse the catalog for steps",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "demo:catalog",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "demo",
+        "catalog.js"
+      ],
+      "strict": true
+    },
+    "demo:generate-file": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Create a command design file",
+      "flags": {
+        "file": {
+          "description": "The name of the demo file.",
+          "env": "SHOPIFY_FLAG_FILENAME",
+          "hasDynamicHelp": false,
+          "hidden": false,
+          "multiple": false,
+          "name": "file",
+          "required": true,
+          "type": "option"
+        },
+        "path": {
+          "default": ".",
+          "description": "The directory for generating the demo file.",
+          "env": "SHOPIFY_FLAG_PATH",
+          "hasDynamicHelp": false,
+          "hidden": false,
+          "multiple": false,
+          "name": "path",
+          "type": "option"
+        }
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "demo:generate-file",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "demo",
+        "generate-file.js"
+      ],
+      "strict": true,
+      "summary": "Creates a JSON file alongside a JSON schema that will validate it"
+    },
+    "demo:print-ai-prompt": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Prints the prompts for a chat-enabled LLM to generate a demo",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "demo:print-ai-prompt",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "demo",
+        "print-ai-prompt.js"
+      ],
+      "strict": true
+    },
+    "docs:generate": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Generate CLI commands documentation",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "docs:generate",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "docs",
+        "generate.js"
+      ],
+      "strict": true
+    },
+    "hydrogen:init": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "hydrogen:init",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "hydrogen",
+        "init.js"
+      ],
+      "strict": false,
+      "summary": "Create a new hydrogen project"
+    },
+    "kitchen-sink": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "View all the available UI kit components",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+        "kitchen-sink all"
+      ],
+      "id": "kitchen-sink",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "kitchen-sink",
+        "index.js"
+      ],
+      "strict": true
+    },
+    "kitchen-sink:async": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "View the UI kit components that process async tasks",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "kitchen-sink:async",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "kitchen-sink",
+        "async.js"
+      ],
+      "strict": true
+    },
+    "kitchen-sink:prompts": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "View the UI kit components prompts",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "kitchen-sink:prompts",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "kitchen-sink",
+        "prompts.js"
+      ],
+      "strict": true
+    },
+    "kitchen-sink:static": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "View the UI kit components that display static output",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "kitchen-sink:static",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "kitchen-sink",
+        "static.js"
+      ],
+      "strict": true
+    },
+    "plugins": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hidden": true,
+      "hiddenAliases": [
+      ],
+      "id": "plugins",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "plugins",
+        "index.js"
+      ],
+      "strict": true
+    },
+    "search": {
+      "aliases": [
+      ],
+      "args": {
+        "query": {
+          "name": "query"
+        }
+      },
+      "description": "Starts a search on shopify.dev.",
+      "examples": [
+        "# open the search modal on Shopify.dev\n    shopify search\n\n    # search for a term on Shopify.dev\n    shopify search <query>\n\n    # search for a phrase on Shopify.dev\n    shopify search \"<a search query separated by spaces>\"\n    "
+      ],
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hiddenAliases": [
+      ],
+      "id": "search",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "search.js"
+      ],
+      "strict": true
+    },
+    "upgrade": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "If the CLI is installed as a dependency of your app project, this command will upgrade it. Otherwise, refer to the \"upgrade\" (https://shopify.dev/docs/api/shopify-cli#upgrade) documentation.",
+      "descriptionWithMarkdown": "If the CLI is installed as a dependency of your app project, this command will upgrade it. Otherwise, refer to the [upgrade](https://shopify.dev/docs/api/shopify-cli#upgrade) documentation.",
+      "flags": {
+        "path": {
+          "default": ".",
+          "description": "The path to your project directory.",
+          "env": "SHOPIFY_FLAG_PATH",
+          "hasDynamicHelp": false,
+          "hidden": false,
+          "multiple": false,
+          "name": "path",
+          "type": "option"
+        }
+      },
+      "hasDynamicHelp": false,
+      "hiddenAliases": [
+      ],
+      "id": "upgrade",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "upgrade.js"
+      ],
+      "strict": true,
+      "summary": "Upgrade your CLI dependency."
+    },
+    "version": {
+      "aliases": [
+      ],
+      "args": {
+      },
+      "description": "Shopify CLI version currently installed.",
+      "flags": {
+      },
+      "hasDynamicHelp": false,
+      "hiddenAliases": [
+      ],
+      "id": "version",
+      "isESM": true,
+      "pluginAlias": "@shopify/cli",
+      "pluginName": "@shopify/cli",
+      "pluginType": "core",
+      "relativePath": [
+        "dist",
+        "cli",
+        "commands",
+        "version.js"
+      ],
+      "strict": true
+    }
+  },
+  "version": "3.58.2"
+}
